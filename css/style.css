@@ -1,0 +1,637 @@
+
+body{ 
+    /* background-color: rgb(202, 210, 240) ; */
+    /* height: 7000px; */
+    /* background-image: url('../images/20.jpg') ;
+    background-repeat: repeat;
+    background-size: cover; */
+    
+
+}
+
+
+/* START HEADER and NAVBAR  */
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #42ce47;
+    background-color: transparent; 
+}
+
+.navbar-default {
+    background : unset; 
+     border : unset;
+     padding: 20px 50px ;
+     font-size: 16px;
+     font-weight: bold ;
+}
+.navbar-default .navbar-brand {
+    color: #29c754;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold ;
+}
+
+/* END HEADER and NAVBAR */
+
+/* Start Slider */
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+    width: -webkit-fill-available;
+}
+.carousel-inner>.item{
+    max-height: 859px;
+    min-height: 859px;
+}
+@media screen and (min-width: 768px){
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    margin-bottom: 100px;
+    font-size: 40px;
+    border: 2px solid #29c754;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.527) ;
+}
+}
+.brown .carousel-caption {
+    right: 20%;
+    left: 20%;
+    margin-bottom: 100px;
+    font-size: 40px;
+    border: 2px solid #5a3420c2;
+    border-radius: 10px;
+    background-color: #5a3420c2;
+}
+.brown .carousel-caption .btn {
+    text-shadow: none;
+    top: 140px;
+    position: absolute;
+   left: 42%; 
+    padding: 10px 50px;
+    background: #5a3420 ;
+    font-weight: bold ;
+    border-color: #613d2a;
+}
+.red .carousel-caption {
+    right: 20%;
+    left: 20%;
+    margin-bottom: 100px;
+    font-size: 40px;
+    border: 2px solid #870707;
+    border-radius: 10px;
+    background-color: #000000ba;
+}
+
+.red .carousel-caption .btn {
+    text-shadow: none;
+    top: 140px;
+    position: absolute;
+    left: 42%;
+    padding: 10px 50px;
+    background: #870707;
+    font-weight: bold;
+    border-color: #870707;
+}
+
+.blue .carousel-caption {
+    right: 20%;
+    left: 20%;
+    margin-bottom: 100px;
+    font-size: 40px;
+    border: 2px solid #a74044;
+    border-radius: 10px;
+    background-color: #206471;
+}
+
+.blue .carousel-caption .btn {
+    text-shadow: none;
+    top: 140px;
+    position: absolute;
+    left: 42%;
+    padding: 10px 50px;
+    background: #a74044;
+    font-weight: bold;
+    border-color: #a74044;
+}
+
+.carousel-caption .btn {
+    text-shadow: none;
+    top: 140px;
+    position: absolute;
+   left: 42%; 
+    padding: 10px 50px;
+    background: #29c754 ;
+    font-weight: bold ;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #000000;
+}
+.carousel-indicators li {
+    
+    border: 1px solid #000000;
+    font-size: 20px;
+}
+/* END Slider */
+
+/* start features */
+.features{
+    margin: 40px 0px;
+}
+.features h1{
+    color: rgb(27, 167, 103);
+    font-weight: bold ;
+    font-family: cursive ;
+
+    }
+.features .p1 {
+        color: rgb(0, 0, 0) ;
+    font-weight: bold ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 40px 0;
+    /* text-align: justify ; */
+    }
+.features .text h2 {
+        padding-left: 40px;
+        color: #4e5156;
+        font-size: 25px;
+    }
+
+.features .icon i {
+        font-size: 25px;
+        color: #1ba767;
+    }
+ .features .text p {
+         
+        color: #4e5156;
+        font-size: 15px;
+        text-align: justify ;
+    }
+
+/* end features */
+
+/* start donate */
+.donate{
+    background: #292727;
+    padding: 40px 0 ;
+
+}
+.donate p {
+    color: #ffffff;
+    font-size: 40px;
+    /* text-transform: capitalize; */
+    font-family: initial;
+}
+.donate button {
+        margin-top: 5px;
+        padding: 13px 65px;
+        font-weight: bold ;
+        background-color: #29c754;
+        border-color: #29c754;
+    
+}
+/* end donate  */
+/* START COMPAIGN  */
+.campaign{
+    margin: 40px 0px;
+}
+.campaign h1{
+    color: rgb(27, 167, 103);
+    font-weight: bold ;
+    font-family: cursive ;
+
+    }
+.campaign .p1 {
+        color: rgb(0, 0, 0) ;
+    font-weight: bold ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+    /* text-align: justify ; */
+    }
+.thumbnail img {
+    min-height: 350px;
+    max-height: 350px;
+
+}
+.fa-star:hover {
+    color: orange;
+    cursor: pointer;
+}
+.checked {
+
+    color: orange;
+  }
+.campaign .thumbnail span   {
+    padding: 30px 0 ;
+}
+.campaign .thumbnail .p2 {
+    padding: 30px 0;
+    text-align: right;
+    margin: 0 25px;
+    font-weight: bold ;
+    color: #000000 ;
+}
+
+/* END COMPAIGN  */
+/* START JOIN campaign */
+.jcampaign{
+    height: 600px;
+    background-image: url('../images/1111.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.jcampaign{
+    margin: 40px 0px;
+}
+.jcampaign .jcamp{
+        margin-top: 155px;
+        /* background: black; */
+        padding-right: 90px;
+}
+
+
+.jcampaign h1{
+    color: rgb(218, 224, 221);
+    font-weight: bold ;
+    font-family: cursive ;
+    text-transform: capitalize ;
+    margin-bottom: 40px;
+
+    }
+
+.jcampaign .p3{
+    color: rgba(132, 129, 129, 0.81) ;
+    font-weight: bold ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:10px 0;
+    text-align: center ;
+    
+    /* text-align: justify ; */
+    }
+
+    .jcampaign .buttonjcamp1 {
+        margin-left: 30px;
+        margin-top: 70px;
+        text-transform: capitalize ;
+        border-radius: 4px;
+        padding: 9px 35px;
+        font-weight: bold ;
+        background-color: #4cae4c ;     
+
+    }
+.jcampaign .buttonjcamp2 {
+        margin-left: 41px;
+        margin-top: 70px;
+        text-transform: capitalize;
+        background: none;
+        border-color: #fff;
+        border-radius: 4px;
+        border: solid 2px;
+        padding: 8px 35px;
+        font-weight: bold;
+        transition: all .5s ease-in-out;   /*  بنعمل شكل للهافر بخليه يكون بطيء*/
+
+    }
+.jcampaign .buttonjcamp2:hover {
+        border-color: #4cae4c ;
+        background-color: #4cae4c ;
+    }
+    
+
+/* END JOIN campaign */
+ /* START  MEET OUR VOULNTEER   */
+
+.volunteer h1{
+    color: rgb(27, 167, 103);
+    font-weight: bold ;
+    font-family: cursive ;
+    text-transform: capitalize ;
+    margin-bottom: 40px;
+
+    }
+
+.volunteer .p4{
+    color: rgb(0, 0, 0) ;
+    font-weight: bold ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:10px 0;
+    text-align: center ;
+    margin-bottom: 45px;
+    /* text-align: justify ; */
+    }
+.volunteer img {
+        min-height: 350px;
+        max-height: 350px;
+    
+    }
+.volunteer .thumbnail span   {
+        padding: 30px 0 ;
+    }
+.volunteer .thumbnail p {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.volunteer .thumbnail h3:hover {
+    color: orange ;
+    cursor: pointer;
+
+}
+.volunteer .thumbnail .anselm {
+    color:  orange ;
+}
+/* END  MEET OUR VOULNTEER   */
+
+/* START TESTIMONIALS */
+.testimonials{
+    height: 800px;
+    background-image: url('../images/8.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-attachment: fixed; */
+}
+.testimonials h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    /* text-align: center; */
+    margin-top: 80px;
+    /* margin-left: 860px; */
+    /* padding-left: 1000px; */
+    font-family: fantasy;
+    font-size: 90px;
+}
+
+.testimonials .fa-star-half-o {
+    
+    font-size: 90px;
+    padding-left: 115px;
+    
+}
+.testimonials .stars{
+    margin-right: 115px;
+}
+.testimonials .blue .carousel-caption {
+    right: 20%;
+    left: 20%;
+    margin-bottom: 100px;
+    font-size: 40px;
+    border: 2px solid rgb(227, 233, 240);
+    border-radius: 2px;
+    background-color: #0000009e;
+    padding: 15px 85px;
+    box-shadow: 0px 11px 20px 0px #f2aaad;
+    text-align: center;
+}
+.testimonials .blue .carousel-caption blockquote {
+    font-size: 25px ;
+}
+.testimonials .blue .carousel-caption h4 {
+    font-size: 25px ;
+    color: orange ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.testimonials .blue .carousel-caption a {
+    font-size: 15px ;
+    color: #fff;
+}
+.testimonials .blue .carousel-caption a:hover {
+    color: #fff ;
+}
+.testimonials .blue .carousel-caption p {
+    font-size: 15px ;
+    color: #f4acaf ;
+
+} 
+/* END TESTIMONIALS */
+
+/* START SUCCESS */
+.success {
+    padding: 50px 0px ;
+}
+.success .succ h1 {
+    color: orange ;
+    font-weight: bold ;
+    font-family: cursive ;
+    text-transform: capitalize ;
+    margin-bottom: 40px;
+
+}
+.success .succ .p5 {
+    color: rgb(0, 0, 0) ;
+    font-weight: bold ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:10px 0;
+    text-align: center ;
+    margin-bottom: 45px;
+    /* text-align: justify ; */
+}
+.success .thumbnail {
+   box-shadow:  1px 1px 15px 0px #1b1b19;
+}
+.success .thumbnail i {
+    font-size: 50px;
+    color: orange;
+    /* padding: 25px; */
+    margin-top: 25px;
+}
+.success .thumbnail h3{
+    font-size: 30px;
+    color: orange ;
+    font-weight: bold;
+
+
+}
+.success .thumbnail p{
+font-size: 15px;
+color: #000000 ;
+font-weight: bold;
+text-transform: capitalize;
+font-family: none;
+
+}
+/* END SUCCESS */
+/* START PARTNER*/
+.partner{
+    margin: 50px 0;
+}
+.partner .part {
+    margin: 30px 90px;
+}
+
+.partner .succ h1 {
+    color: rgb(0, 0, 0) ;
+    font-weight: bold ;
+    font-family: cursive ;
+    text-transform: capitalize ;
+    margin-bottom: 40px;
+
+}
+.partner .succ .p5 {
+    color: rgb(0, 0, 0) ;
+    font-weight: bold ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:10px 0;
+    text-align: center ;
+    margin-bottom: 45px;
+    /* text-align: justify ; */
+}
+.partner .thumbnail p {
+    color: #828282ba;
+    font-weight: bold ;
+    font-family: cursive ;
+    text-transform: capitalize ;
+    margin: 15px;
+    font-size: 25px;
+}
+/* END PARTNER  */
+/* START SUBSCRIBE */
+.subscribe{
+    background: #292727;
+    padding: 40px 0 ;
+
+}
+.subscribe p {
+    color: #ffffff;
+    font-size: 40px;
+    /* text-transform: capitalize; */
+    font-family: initial;
+}
+.subscribe button {
+        margin-top: 5px;
+        padding: 13px 40px;
+        font-weight: bold ;
+    
+}
+
+.subscribe form  input{
+    padding: 22px 157px 22px 14px;
+    margin-right: 14px;
+}
+/* END subscribe  */
+
+/* START FOOTER  */
+.footer {
+    /* height: 800px; */
+    background-image: url(../images/1111.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* background-attachment: fixed; */
+    padding: 80px 0 20px 0;
+}
+.footer .spa {
+    color: orange;
+    margin-top:60px; 
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer .spa span {
+    font-size: 20px;
+}
+.footer ul {
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
+    /* font-size: 25px; */
+    list-style: none;
+    padding-left: 15px;
+    
+}
+.footer ul li {
+    margin-top: 15px;
+}
+
+
+.footer img {
+    width: 190px;
+    margin-top: 75px;
+}
+.footer .mission{
+    color: #fcfcfc ;
+    cursor: pointer;
+
+}
+.footer .mission:hover{
+    color: deepskyblue ;
+
+}
+.footer a {
+    color: deepskyblue ;
+}
+.footer .mission1{
+    color: deepskyblue ;
+}
+.footer .mission3{
+    color: deepskyblue ;
+    cursor: pointer;
+}
+
+.footer .mission1:hover {
+    color: deepskyblue ;
+    cursor: pointer;
+    
+}
+.footer .icons {
+    margin: 45px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.footer .icons i{
+    padding: 0 10px ;
+}
+
+.footer .copyright {
+    font-size: 15px;
+    color: #ffffff;
+}
+.footer iframe {
+    margin-top: 60px ;
+    border: 2px solid ;
+    border-radius: 4px ;
+}
+.footer .icons .fa-youtube-square:hover {
+    color: #F40007
+}
+.footer .icons .fa-facebook-square:hover{
+color: #2D4B82 ;
+}
+.footer .icons .fa-google-plus:hover{
+    color: #D2291E ;
+}
+.footer .icons .fa-linkedin-square:hover{
+    color: #2464AE
+    
+}
+.footer .icons .fa-twitter-square:hover{
+    color: #54D0F6 ;
+}
+.footer .icons .fa-instagram:hover {
+    color:#CE307E ;
+}
+
+
+
+/* END FOOTER  */
+
+
+
+
+
+
+
+
+
+/* start frame work  */
+.fl-left { float: left ; }  /*floating element left*/
+/* end frame work  */
